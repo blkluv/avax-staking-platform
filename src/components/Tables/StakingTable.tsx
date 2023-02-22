@@ -70,7 +70,7 @@ export default function StakingTable() {
     <DepositModal
       stakedBalance={new BigNumber(6897362899737990202883)}
       onConfirm={handleStake}
-      tokenName="ASP"
+      tokenName="ADS"
     />
   );
 

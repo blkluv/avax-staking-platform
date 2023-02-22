@@ -1,7 +1,7 @@
 import { IconBaseProps } from "react-icons";
 import { FaTelegram, FaTwitter } from "react-icons/fa";
 
-export const siteName = "ASP STAKING PLATFORM";
+export const siteName = "ADS STAKING MARKET";
 
 export const links = [
   {
@@ -25,15 +25,15 @@ export const links = [
 export const stakingFaqs = [
   {
     question: "What is staking?",
-    answer: `You can stake your ASP tokens for a fixed number of days to earn interest on them.
+    answer: `You can stake your ADS tokens for a fixed number of days to earn interest on them.
       Make sure to stake more than 5 days to be eligible for bonus days rewards. At the end of
-      every day the daily stake pool of ASP tokens will be calculated and allocated proportionally
-      between all the open stakes. The allocated ASP tokens and AVAX will be available for users to
+      every day the daily stake pool of ADS tokens will be calculated and allocated proportionally
+      between all the open stakes. The allocated ADS tokens and AVAX will be available for users to
       withdraw when the stake ends.`,
   },
   {
     question: "How is stake pool calculated?",
-    answer: `[ASP supply * 50000 / 5.42% inflation per year ], this daily pool will be distributed
+    answer: `[ADS supply * 50000 / 5.42% inflation per year ], this daily pool will be distributed
       between all the Stakers as their stake interest.`,
   },
   {
@@ -52,37 +52,37 @@ export const stakingFaqs = [
   },
   {
     question: "Do I get AVAX dividends for staking?",
-    answer: `Yes! One of the benefits of Staking ASP is AVAX dividends.
+    answer: `Yes! One of the benefits of Staking ADS is AVAX dividends.
       At the end of each day a AVAX dividends pool will be calculated and allocated to all the open
       stakes based on their stake amount. The dividends pool comes from the daily auction lobby total
       entry amount.`,
   },
   {
     question: "How is dividends pool calculated?",
-    answer: `97% of all ASP that enters the daily Auction Lobby is pooled and distributed back out to stakers.`,
+    answer: `97% of all ADS that enters the daily Auction Lobby is pooled and distributed back out to stakers.`,
   },
   {
     question: "When will I recieve my AVAX dividends?",
-    answer: `You will receive your ASP dividends after you exit your stake position.`,
+    answer: `You will receive your ADS dividends after you exit your stake position.`,
   },
 ];
 
 
 export const auctionFaqs = [
   {
-    question: "What are auction lobbies?",
-    answer: `Auction lobbies are Daily Auctions that offer ASP tokens for AVAX based on the ASP
+    question: "What are auction ADS campaign?",
+    answer: `Auction ADS campaign are Daily Auctions that offer ADS tokens for AVAX based on the ADS
       and AXAV pool at the end of the day.`,
   },
   {
-    question: "How much ASP do lobbies pay?",
-    answer: `Lobbies ASP pool will start from 5 million ASP per day and goes until 1 million over
+    question: "How much ADS do ADS campaign pay?",
+    answer: `ADS campaign ADS pool will start from 5 million ADS per day and goes until 1 million over
       the next 365 days but never goes lower than 1 million tokens per day.`,
   },
   {
     question: "Buying tokens from exchange or participating in auction?",
-    answer: `Auction lobbies are another way to buy ASP tokens that might be more profitable
-      than purchasing on exchanges. Plus the ASP spent is rewarded back to Stakers.`,
+    answer: `Auction ADS campaign are another way to buy ADS tokens that might be more profitable
+      than purchasing on exchanges. Plus the ADS spent is rewarded back to Stakers.`,
   },
   {
     question: "Where does all the AVAX go?",
@@ -90,8 +90,8 @@ export const auctionFaqs = [
       platform development costs.`,
   },
   {
-    question: "When do lobbies end?",
-    answer: `Lobbies are daily, Every day at 00:00 UTC`,
+    question: "When do ADS campaign end?",
+    answer: `ADS campaign are daily, Every day at 00:00 UTC`,
   },
 ];
 
@@ -108,12 +108,12 @@ export interface SocialLinkProps {
 export const socialLinks: SocialLinkProps = {
   twitter: {
     name: "Twitter",
-    url: "https://twitter.com/asptokens?s=21",
+    url: "https://twitter.com/arvrtise",
     icon: (props) => <FaTwitter {...props} />,
   },
   telegram: {
     name: "Telegram",
-    url: "https://t.me/aspstake",
+    url: "https://t.me/arvrtise",
     icon: (props) => <FaTelegram {...props} />,
   },
 };

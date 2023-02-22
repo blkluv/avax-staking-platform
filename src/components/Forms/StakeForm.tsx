@@ -27,7 +27,7 @@ export default function StakeForm({ className }: { className?: string }) {
         Stake
         <span className="text-sm">
           302{" "}
-          <span className="text-primary-700 font-semibold text-xl">ASP</span>
+          <span className="text-primary-700 font-semibold text-xl">ADS</span>
         </span>
       </div>
       <form onSubmit={handleStake} autoComplete="off">

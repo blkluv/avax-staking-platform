@@ -12,17 +12,17 @@ export default function Stake() {
       <SEO
         slug="/stake"
         title="Stake to earn more"
-        pageDescription="Stake your ASP tokens within the Staking Portal and earn daily interest.
-            Additionally, Stakers are rewarded AVAX tokens from the daily Lobbies based off the
+        pageDescription="Stake your ADS tokens within the Staking Portal and earn daily interest.
+            Additionally, Stakers are rewarded AVAX tokens from the daily ADS campaign based off the
             percentage of total tokens beign staked."
       />
       <div className="px-4 pt-20 max-w-screen-2xl mx-auto">
         <div className="max-w-4xl px-8 mx-auto mb-16">
-          <h1>Stake ASP and earn AVAX tokens daily!</h1>
+          <h1>Stake ADS and earn AVAX tokens daily!</h1>
           <p>
-            Stake your ASP tokens within the Staking Portal and earn daily
+            Stake your ADS tokens within the Staking Portal and earn daily
             interest. Additionally, Stakers are rewarded AVAX tokens from the
-            daily Lobbies based off the percentage of total tokens beign staked.
+            daily ADS campaign based off the percentage of total tokens beign staked.
           </p>
         </div>
         <div
@@ -32,7 +32,7 @@ export default function Stake() {
           <div className="text-lg text-gray-500">
             SHARE RATE{" "}
             <span className="inline-block ml-2 text-2xl font-semibold text-gray-500">
-              0/ASP
+              0/ADS
             </span>
           </div>
           <div className="text-lg text-gray-500">

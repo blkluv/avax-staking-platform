@@ -13,7 +13,7 @@ export default function HomePage() {
         slug="/"
         pageDescription="Stake your ASP tokens within the Staking Portal and earn daily
           interest. Additionally, Stakers are rewarded AVAX tokens from the
-          daily Lobbies based off the percentage of total tokens beign
+          daily ADS campaign based off the percentage of total tokens beign
           staked."
       />
       {/* Hero header */}
@@ -24,12 +24,12 @@ export default function HomePage() {
         >
           <div className="w-full max-w-3xl -mt-20 md:mt-0 text-center md:text-left">
             <h1 className="text-white">
-              ASP Community Staking Platform built on AVALANCHE
+              ADS Staking Market Campaign built on AVALANCHE
             </h1>
             <p className="my-4 py-2 text-white">
-              The community has taken on this project and we're here to help it
-              succeed! Daily Auction Lobby, Daily AVALANCE Dividends, Lucrative
-              Staking System, Completely Decentralized.
+              We evolved the adverstising industy to pay you to stake ADS!
+              Daily Auction ad campaigns, Avalance dividends, lucrative
+              staking system, with no middleman fees.
             </p>
             <div className="my-4 -mx-4">
               <Link
@@ -62,9 +62,9 @@ export default function HomePage() {
               <h2 className="text-xl m-0">Lucrative Staking System</h2>
             </div>
             <p>
-              Stake your ASP tokens within the Staking Portal and earn daily
+              Stake your ADS tokens within the Staking Portal and earn daily
               interest. Additionally, Stakers are rewarded AVAX tokens from the
-              daily Lobbies based off the percentage of total tokens beign
+              daily ADS campaign based off the percentage of total tokens beign
               staked.
             </p>
           </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
               <h2 className="text-xl m-0">Daily Auction Lobby</h2>
             </div>
             <p>
-              Our Daily Auctions will start from 5 million ASP tokens per day
+              Our Daily Auctions will start from 5 million ADS tokens per day
               and will be distributed between the users that participated in
               Auction based on their purchase amount. This will reduce over the
               next 365 days
@@ -134,7 +134,7 @@ export default function HomePage() {
             <div className="w-full md:w-1/2 text-center md:text-left">
               <p className="mb-4 text-white">
                 Learn more about the project, interract with the team and take a
-                part in shaping the future of ASP Staking Platform
+                part in shaping the future of ADS Staking Platform
               </p>
               <Link
                 to={socialLinks.telegram.url}

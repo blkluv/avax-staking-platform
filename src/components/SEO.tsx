@@ -16,7 +16,7 @@ export default function SEO({
 }: SEOProps) {
   const url = `${process.env.REACT_APP_FRONTEND_URL}${slug}`;
   const description =
-    pageDescription || "ASP Community Staking Platform built on AVALANCHE";
+    pageDescription || "ADS Staking Market Campaign built on AVALANCHE";
   const metaImages = {
     og: "asp-og-image-small.jpg",
     twitter: "asp-og-image-small.jpg",
@@ -29,11 +29,11 @@ export default function SEO({
         htmlAttributes={{ lang }}
         {...(title
           ? {
-              titleTemplate: `%s — ASP Staking Platform`,
+              titleTemplate: `%s — ADS Staking Platform`,
               title,
             }
           : {
-              title: `ASP Staking Platform`,
+              title: `ADS Staking Platform`,
             })}
         meta={[
           {
@@ -46,7 +46,7 @@ export default function SEO({
           },
           {
             property: "og:title",
-            content: title || "ASP Staking Platform",
+            content: title || "ADS Staking Platform",
           },
           {
             property: "og:description",
@@ -58,7 +58,7 @@ export default function SEO({
           },
           {
             name: "twitter:title",
-            content: title || "ASP Staking Platform",
+            content: title || "ADS Staking Platform",
           },
           {
             name: "twitter:description",

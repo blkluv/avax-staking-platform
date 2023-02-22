@@ -36,7 +36,7 @@ export default function PrimaryFooter() {
             ))}
           </div>
           <div className="text-sm text-center">
-            Copyright &copy; {new Date().getFullYear()} ASP.
+            Copyright &copy; {new Date().getFullYear()} ADS.
           </div>
         </div>
       </div>
