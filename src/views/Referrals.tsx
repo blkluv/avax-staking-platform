@@ -23,7 +23,7 @@ export default function Referrals() {
         </p>
         <div className="mt-12">
             <div className="text-2xl text-gray-600 my-4">Copy your referral link</div>
-            <div><CopyToClipboard content="https://asp.com/?ref=w2Fg46chi" /></div>
+            <div><CopyToClipboard content="https://ads.arvrtise.com/?ref=w2Fg46chi" /></div>
         </div>
       </div>
     </Layout>

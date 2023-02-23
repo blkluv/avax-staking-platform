@@ -38,10 +38,10 @@ export default function HomePage() {
                   hover:bg-white hover:text-primary focus:bg-white focus:text-primary"
                 button
               >
-                Stake Now
+                Stake Soon
               </Link>
               <Link
-                to="https://snowtrace.io/address/0xb3127298c77b6d389217d985f4b7197388334df4"
+                to="https://snowtrace.io/address/0xa98c67d9785235923977b831566763bf1bdde8d2"
                 className="mx-4 lg:w-auto ring-primary-400 text-primary hover:bg-primary-50/20
                   hover:text-white hover:ring-gray-100 focus:bg-primary-50/20 focus:text-white focus:ring-gray-100"
                 button
